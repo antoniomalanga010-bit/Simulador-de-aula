@@ -1,0 +1,171 @@
+{
+  "catalogue": {
+    "disciplines": 10,
+    "mathTopics": 12,
+    "order": [
+      "teoria-de-conjuntos",
+      "numeros-inteiros-relativos-e-racionais",
+      "operacoes-fundamentais-potencias-mdc-mmc",
+      "equacoes-1-grau-e-geometria-plana",
+      "monomios-polinomios",
+      "casos-notaveis-decomposicao-fatores",
+      "equacoes-inequacoes-sistemas",
+      "teorema-pitagoras-areas",
+      "numeros-reais-radiciacao",
+      "equacoes-2-grau",
+      "funcao",
+      "progressao-aritmetica"
+    ]
+  },
+  "newTopics": [
+    {
+      "id": "teoria-de-conjuntos",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "numeros-inteiros-relativos-e-racionais",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "operacoes-fundamentais-potencias-mdc-mmc",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "equacoes-1-grau-e-geometria-plana",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "monomios-polinomios",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "casos-notaveis-decomposicao-fatores",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "equacoes-inequacoes-sistemas",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "graph",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "teorema-pitagoras-areas",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    },
+    {
+      "id": "numeros-reais-radiciacao",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "image",
+        "note",
+        "p"
+      ]
+    },
+    {
+      "id": "equacoes-2-grau",
+      "sections": 12,
+      "exercises": 20,
+      "quizQuestions": 40,
+      "blockTypes": [
+        "example",
+        "formula",
+        "graph",
+        "image",
+        "note",
+        "p",
+        "table"
+      ]
+    }
+  ],
+  "quizQuestionCount": 400,
+  "answerPositions0based": {
+    "2": 106,
+    "3": 111,
+    "1": 87,
+    "0": 96
+  },
+  "answerSpread": 24,
+  "offlineShellPaths": 179,
+  "offlineMissing": []
+}
