@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#132b5b">
+  <meta name="description" content="Simulador de Aula: aprende, pratica e acompanha o teu progresso.">
+  <title>Simulador de Aula</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Menu principal">
+      <a class="brand" href="#inicio" aria-label="Simulador de Aula - Início">
+        <span class="brand-mark" aria-hidden="true">SA</span>
+        <span class="brand-copy"><strong>Simulador</strong><small>de Aula</small></span>
+      </a>
+      <button class="sidebar-collapse" id="sidebarCollapse" type="button" aria-label="Recolher menu" title="Recolher menu">‹</button>
+      <nav class="nav-list">
+        <a class="nav-link active" href="#inicio" data-route="inicio"><span class="nav-icon">⌂</span><span class="nav-label">Início</span></a>
+        <a class="nav-link" href="#disciplinas" data-route="disciplinas"><span class="nav-icon">▤</span><span class="nav-label">Disciplinas</span></a>
+        <a class="nav-link" href="#testes" data-route="testes"><span class="nav-icon">✓</span><span class="nav-label">Testes</span></a>
+        <a class="nav-link" href="#desempenho" data-route="desempenho"><span class="nav-icon">▥</span><span class="nav-label">Meu desempenho</span></a>
+        <a class="nav-link" href="#laboratorios" data-route="laboratorios"><span class="nav-icon">⚗</span><span class="nav-label">Laboratórios</span></a>
+      </nav>
+      <div class="sidebar-bottom">
+        <button class="nav-link theme-toggle" id="themeToggle" type="button"><span class="nav-icon" id="themeIcon">☾</span><span class="nav-label" id="themeLabel">Modo escuro</span></button>
+        <div class="sidebar-foot"><span class="status-dot"></span><span class="nav-label">Aprende ao teu ritmo</span></div>
+      </div>
+    </aside>
+    <div class="sidebar-scrim" id="sidebarScrim"></div>
+    <main class="main-area">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="mobileMenu" type="button" aria-label="Abrir menu">☰</button>
+        <div class="breadcrumb" id="breadcrumb">Início</div>
+        <div class="topbar-actions">
+          <span class="offline-indicator" id="connectionStatus"><span class="status-dot"></span> Online</span>
+          <button class="icon-button" id="installButton" type="button" hidden title="Instalar aplicação">⇩</button>
+        </div>
+      </header>
+      <section class="page-content" id="app" tabindex="-1">
+        <div class="loading-panel"><span class="spinner"></span> A preparar o teu espaço de aprendizagem…</div>
+      </section>
+      <footer class="app-footer">Simulador de Aula <span>•</span> Aprende, pratica, evolui.</footer>
+    </main>
+  </div>
+  <div class="toast-region" id="toastRegion" aria-live="polite"></div>
+  <script src="assets/js/storage.js" defer></script>
+  <script src="assets/js/content.js" defer></script>
+  <script src="assets/js/sidebar.js" defer></script>
+  <script src="assets/js/theme.js" defer></script>
+  <script src="assets/js/search.js" defer></script>
+  <script src="assets/js/quiz.js" defer></script>
+  <script src="assets/js/performance.js" defer></script>
+  <script src="assets/js/labs.js" defer></script>
+  <script src="assets/js/router.js" defer></script>
+  <script src="assets/js/pwa.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
